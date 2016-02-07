@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 프롤로그 -->
+<!DOCTYPE book SYSTEM "ex02.dtd"><!--DOCTYPE이란 설계도를 참조할때 사용한다. 즉, ex02.dtd을 참조한다.  -->
+<book><!-- 엘리먼트 -->
+<title>노인과 바다</title><!-- 설계도의 순서와 태그 이름 모두 같아야한다. -->
+<author>헤밍웨이</author>
+<author>헤밍웨이2</author>
+<image></image>
+<publisher>자바세연출판사</publisher>
+</book>

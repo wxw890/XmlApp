@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT booklist (book*)>
+	<!ELEMENT book (title, author, image)>
+		<!ELEMENT title (#PCDATA)>
+		<!ELEMENT author (#PCDATA)>
+		<!ELEMENT image (#PCDATA)>
+		
+<!ATTLIST book 
+	kind CDATA #REQUIRED
+	price CDATA #IMPLIED
+	nation CDATA #FIXED "국내"
+	nation CDATA "국내">

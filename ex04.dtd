@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY KR "대한민국">
+<!ENTITY FR "프랑스">
+<!ENTITY US "미국">
+
+<!ELEMENT booklist (book*)>
+	<!ELEMENT book (title, author, nation)>
+		<!ELEMENT title (#PCDATA)>
+		<!ELEMENT author (#PCDATA)>
+		<!ELEMENT nation (#PCDATA)>
+		
+<!ATTLIST book nation ENTITY #IMPLIED>

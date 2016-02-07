@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 프롤로그 -->
+<book><!-- 엘리먼트 -->
+<title>xml &amp; java이에욤</title>
+<publisher>세연출판사</publisher>
+<author><![CDATA[tom & jane]]></author>
+<price><!-- 여기는 가격을 넣어주는 곳 --></price>
+<year> </year>
+</book>

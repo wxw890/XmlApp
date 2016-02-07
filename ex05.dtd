@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY kind SYSTEM "ex05_entity.xml">
+
+<!ELEMENT booklist (kinds, book*)>
+	<!ELEMENT kinds (kind*)>
+		<!ELEMENT kind (#PCDATA)>
+	<!ELEMENT book (title, author)>
+		<!ELEMENT title (#PCDATA)>
+		<!ELEMENT author (#PCDATA)>
+
+<!ATTLIST kind id ID #REQUIRED>		
+		
+<!ATTLIST book id ID #REQUIRED
+			kind IDREF #REQUIRED>

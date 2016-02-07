@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kinds>
+	<kind id="k1">수필</kind>
+	<kind id="k2">소설</kind>
+	<kind id="k3">IT</kind>
+</kinds>
